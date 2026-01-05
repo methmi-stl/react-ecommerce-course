@@ -1,9 +1,11 @@
 import { Header } from "../components/Header";
 import "./HomePage.css";
 
+
 export function HomePage() {
   return (
     <>
+      <link rel="icon" href="../../public/home.png" />
       <title>Ecommere Project</title>
       <Header />
 
