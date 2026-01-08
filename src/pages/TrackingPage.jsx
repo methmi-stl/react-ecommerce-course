@@ -2,12 +2,12 @@ import { Header } from "../components/Header"; // reuse your header
 import "./TrackingPage.css"; // we’ll add CSS next
 import {Link} from "react-router";
 
-export function TrackingPage() {
+export function TrackingPage({cart}) {
   return (
     <>
       <link rel="icon" href="../../public/tracking.png" />
       <title>Tracking</title>
-      <Header />
+      <Header cart={cart} />
 
         <div className="tracking-page">
             <div className="header">
